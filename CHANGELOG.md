@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/meow-meow-dev/shared-configs/compare/shared-configs-v1.1.0...shared-configs-v1.1.1) (2025-01-05)
+
+
+### Bug Fixes
+
+* fix github action for package publishing ([#9](https://github.com/meow-meow-dev/shared-configs/issues/9)) ([de76097](https://github.com/meow-meow-dev/shared-configs/commit/de760976b1037d9c17567ffbddbe28a93cd8ce95))
+* fix GitHub actions ([#10](https://github.com/meow-meow-dev/shared-configs/issues/10)) ([0610320](https://github.com/meow-meow-dev/shared-configs/commit/0610320b4bb3a01f11a69c31086a70656fc49e1b))
+
 ## [1.1.0](https://github.com/meow-meow-dev/shared-configs/compare/shared-configs-v1.0.1...shared-configs-v1.1.0) (2025-01-05)
 
 
