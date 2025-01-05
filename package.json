@@ -3,7 +3,7 @@
   "files": [
     "dist"
   ],
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "exports": {
     "./prettier": "./dist/prettier.config.js"
