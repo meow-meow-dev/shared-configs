@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.5...v1.3.0) (2025-01-05)
+
+
+### Features
+
+* publish package to NPM ([#24](https://github.com/meow-meow-dev/shared-configs/issues/24)) ([bb199de](https://github.com/meow-meow-dev/shared-configs/commit/bb199dea8888518dac61c066fe9f8be1c095188d))
+
 ## [1.2.5](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.4...v1.2.5) (2025-01-05)
 
 
