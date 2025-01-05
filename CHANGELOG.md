@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.3...v1.2.4) (2025-01-05)
+
+
+### Bug Fixes
+
+* install packages after installing pnpm ([#20](https://github.com/meow-meow-dev/shared-configs/issues/20)) ([57b3700](https://github.com/meow-meow-dev/shared-configs/commit/57b370026f638725aac5070d4a6aaf2806672c9f))
+
 ## [1.2.3](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.2...v1.2.3) (2025-01-05)
 
 
