@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.4...v1.2.5) (2025-01-05)
+
+
+### Bug Fixes
+
+* fix package build (remove git check from pnpm publish) ([#22](https://github.com/meow-meow-dev/shared-configs/issues/22)) ([5e30753](https://github.com/meow-meow-dev/shared-configs/commit/5e30753a5baed77aad297c9514ee5b6fc98e9b67))
+
 ## [1.2.4](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.3...v1.2.4) (2025-01-05)
 
 
