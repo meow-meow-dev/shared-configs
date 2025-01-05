@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/meow-meow-dev/shared-configs/compare/shared-configs-v1.0.1...shared-configs-v1.1.0) (2025-01-05)
+
+
+### Features
+
+* automatically publish package where a new release is published ([#7](https://github.com/meow-meow-dev/shared-configs/issues/7)) ([023c21b](https://github.com/meow-meow-dev/shared-configs/commit/023c21b517c8e4e00e2065212474adf8927ac386))
+
 ## [1.0.1](https://github.com/meow-meow-dev/shared-configs/compare/shared-configs-v1.0.0...shared-configs-v1.0.1) (2025-01-05)
 
 
