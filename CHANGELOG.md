@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.2...v1.2.3) (2025-01-05)
+
+
+### Bug Fixes
+
+* install pnpm before using it in GH publish action ([#18](https://github.com/meow-meow-dev/shared-configs/issues/18)) ([5dbea27](https://github.com/meow-meow-dev/shared-configs/commit/5dbea27108476c6fa015e578e37f6a93b907de43))
+
 ## [1.2.2](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.1...v1.2.2) (2025-01-05)
 
 
