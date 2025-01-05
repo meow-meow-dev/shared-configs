@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.0...v1.2.1) (2025-01-05)
+
+
+### Bug Fixes
+
+* use custom token for workflows ([#14](https://github.com/meow-meow-dev/shared-configs/issues/14)) ([76978b8](https://github.com/meow-meow-dev/shared-configs/commit/76978b8a9eeff9169e7a8cbc38391d5a3a4f4375))
+
 ## [1.2.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.1.1...v1.2.0) (2025-01-05)
 
 
