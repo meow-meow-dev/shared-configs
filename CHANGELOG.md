@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.4...v1.4.5) (2025-01-06)
+
+
+### Bug Fixes
+
+* add eslint-import-resolver-typescript as peerDependencies ([#36](https://github.com/meow-meow-dev/shared-configs/issues/36)) ([d8eaa1a](https://github.com/meow-meow-dev/shared-configs/commit/d8eaa1ad05e5e3fdf7b47e3f925a8fcf9fd1f39c))
+
 ## [1.4.4](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.3...v1.4.4) (2025-01-06)
 
 
