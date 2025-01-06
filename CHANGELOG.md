@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.1...v1.4.2) (2025-01-06)
+
+
+### Bug Fixes
+
+* move eslint plugins to peerDependencies, add .mjs extension to typescript resolver ([#30](https://github.com/meow-meow-dev/shared-configs/issues/30)) ([707c1e1](https://github.com/meow-meow-dev/shared-configs/commit/707c1e16985e66a1203cb97be883b8903c50d524))
+
 ## [1.4.1](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.0...v1.4.1) (2025-01-06)
 
 
