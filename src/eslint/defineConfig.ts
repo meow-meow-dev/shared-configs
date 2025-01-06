@@ -1,7 +1,6 @@
 import type { Linter } from "eslint";
 
 import typescriptParser from "@typescript-eslint/parser";
-import { createTypeScriptImportResolver } from "eslint-import-resolver-typescript";
 
 import { eslintConfig } from "./eslintConfig.js";
 import { importConfigs } from "./importConfigs.js";
@@ -71,8 +70,8 @@ export function defineConfig({
     },
     {
       settings: {
-        "import/resolver-next": [
-          createTypeScriptImportResolver({
+        "import/resolver-next": {
+          typescript: {
             alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
             extensions: [
               ".ts",
@@ -86,8 +85,8 @@ export function defineConfig({
               ".node",
             ],
             project: tsconfigRootDir,
-          }),
-        ],
+          },
+        },
       },
     },
     eslintConfig,
