@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.3.0...v1.4.0) (2025-01-06)
+
+
+### Features
+
+* add eslint configuration ([#26](https://github.com/meow-meow-dev/shared-configs/issues/26)) ([5871284](https://github.com/meow-meow-dev/shared-configs/commit/58712843571e15aaf3c2f24d879f128dc9a2826c))
+
 ## [1.3.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.2.5...v1.3.0) (2025-01-05)
 
 
