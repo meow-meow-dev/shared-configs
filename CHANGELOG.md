@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.0...v1.4.1) (2025-01-06)
+
+
+### Bug Fixes
+
+* export types in package.json ([#28](https://github.com/meow-meow-dev/shared-configs/issues/28)) ([8dfe489](https://github.com/meow-meow-dev/shared-configs/commit/8dfe489b5d422ebb063edad940f5c8a2ffa37c4b))
+
 ## [1.4.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.3.0...v1.4.0) (2025-01-06)
 
 
