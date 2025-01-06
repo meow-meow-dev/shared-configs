@@ -11,8 +11,18 @@
   "author": "Jérôme <jerome@meow-meow.dev>",
   "type": "module",
   "exports": {
-    "./eslint": "./dist/eslint/index.mjs",
-    "./prettier": "./dist/prettier/index.mjs"
+    "./eslint": {
+      "import": {
+        "types": "./dist/eslint/index.d.ts",
+        "default": "./dist/eslint/index.mjs"
+      }
+    },
+    "./prettier": {
+      "import": {
+        "types": "./dist/prettier/index.d.ts",
+        "default": "./dist/prettier/index.mjs"
+      }
+    }
   },
   "files": [
     "dist"
