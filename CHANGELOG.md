@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.3...v1.4.4) (2025-01-06)
+
+
+### Bug Fixes
+
+* fix typescript resolver (2nd try) ([#34](https://github.com/meow-meow-dev/shared-configs/issues/34)) ([ed71574](https://github.com/meow-meow-dev/shared-configs/commit/ed71574a1f1fb6b7a6e16c5e820aff3901de721e))
+
 ## [1.4.3](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.2...v1.4.3) (2025-01-06)
 
 
