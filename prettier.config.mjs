@@ -1,1 +1,1 @@
-export { default } from "@meow-meow-dev/shared-configs/prettier";
+export { default } from "./dist/prettier/index.mjs";
