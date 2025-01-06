@@ -1,2 +1,4 @@
-dist
 pnpm-lock.yaml
+.release-please-manifest.json
+CHANGELOG.md
+dist
