@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.5...v1.4.6) (2025-01-11)
+
+
+### Bug Fixes
+
+* add .tsup to ignored files ([#39](https://github.com/meow-meow-dev/shared-configs/issues/39)) ([f0d682f](https://github.com/meow-meow-dev/shared-configs/commit/f0d682f7ea0354bac50ce11ed421d9d40262b552))
+
 ## [1.4.5](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.4...v1.4.5) (2025-01-06)
 
 
