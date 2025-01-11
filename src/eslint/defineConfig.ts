@@ -47,6 +47,7 @@ export function defineConfig({
         "**/_generated/",
         "**/locales/**/messages.ts",
         "**/node_modules/",
+        ".tsup",
       ],
     },
     {
