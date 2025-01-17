@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.7](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.6...v1.4.7) (2025-01-17)
+
+
+### Bug Fixes
+
+* ignore default exports in all config files ([#41](https://github.com/meow-meow-dev/shared-configs/issues/41)) ([034fc64](https://github.com/meow-meow-dev/shared-configs/commit/034fc64d21e279ac23cdf12a9b4321db387c684b))
+
 ## [1.4.6](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.5...v1.4.6) (2025-01-11)
 
 
