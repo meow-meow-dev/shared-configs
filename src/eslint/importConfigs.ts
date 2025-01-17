@@ -33,7 +33,7 @@ export const importConfigs = [
   {
     ...importPlugin.flatConfigs.recommended,
     ...importPlugin.flatConfigs.typescript,
-    files: [".*config*.{js,cjs,mjs,ts}", "*config*.{js,cjs,mjs,ts}"],
+    files: ["**/.*config*.{js,cjs,mjs,ts}", "**/*config*.{js,cjs,mjs,ts}"],
     rules: {
       "import/no-default-export": "off",
     },
