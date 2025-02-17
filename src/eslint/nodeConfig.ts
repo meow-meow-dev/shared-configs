@@ -1,6 +1,7 @@
+import { Linter } from "eslint";
 import nodePlugin from "eslint-plugin-n";
 
-export const nodeConfig = {
+export const nodeConfig: Linter.Config = {
   ...nodePlugin.configs["flat/recommended-module"],
   rules: {
     "n/file-extension-in-import": ["error", "always"],

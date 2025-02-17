@@ -1,5 +1,3 @@
-import type { ReactFlatConfig } from "eslint-plugin-react";
-
 import react from "eslint-plugin-react";
 import globalDefault from "globals";
 
@@ -57,7 +55,7 @@ const globals = {
   ...browser,
 };
 
-const reactConfigFlat = react.configs.flat as Record<string, ReactFlatConfig>;
+const reactConfigFlat = react.configs.flat;
 
 const languageOptions = {
   ...reactConfigFlat.recommended.languageOptions,

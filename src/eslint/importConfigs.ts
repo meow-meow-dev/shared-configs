@@ -2,7 +2,7 @@ import importPlugin from "eslint-plugin-import";
 
 const rules = {
   "import/no-default-export": "error",
-  "import/no-unresolved": ["error", { ignore: ["cloudflare:test"] }],
+  "import/no-unresolved": "off",
 };
 
 export const importConfigs = [
