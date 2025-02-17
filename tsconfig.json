@@ -1,5 +1,5 @@
 {
   "extends": "@tsconfig/node22/tsconfig.json",
   "include": ["src", "test", "*.ts"],
-  "compilerOptions": { "jsx": "react-jsx" }
+  "compilerOptions": { "jsx": "react-jsx", "esModuleInterop": true }
 }
