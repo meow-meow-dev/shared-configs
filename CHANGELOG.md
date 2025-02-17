@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.7...v1.5.0) (2025-02-17)
+
+
+### Features
+
+* remove import/no-unresolved rule ([#43](https://github.com/meow-meow-dev/shared-configs/issues/43)) ([0aec8a4](https://github.com/meow-meow-dev/shared-configs/commit/0aec8a43ef104d4e7bef7680b48f32dbfac49080))
+
 ## [1.4.7](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.6...v1.4.7) (2025-01-17)
 
 
