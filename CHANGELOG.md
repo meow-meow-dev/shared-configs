@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.5.0...v1.6.0) (2025-04-14)
+
+
+### Features
+
+* bump packages, add tanstack query & router plugins ([#45](https://github.com/meow-meow-dev/shared-configs/issues/45)) ([4079261](https://github.com/meow-meow-dev/shared-configs/commit/4079261aaf701f74c58aaf3e03585579a2f5659a))
+
 ## [1.5.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.4.7...v1.5.0) (2025-02-17)
 
 
