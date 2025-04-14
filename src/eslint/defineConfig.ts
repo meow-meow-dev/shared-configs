@@ -13,6 +13,8 @@ import { reactConfig } from "./reactConfig.js";
 import { reactHooksConfig } from "./reactHooksConfig.js";
 import { reactRefreshConfig } from "./reactRefreshConfig.js";
 import { tailwindConfigs } from "./tailwindConfigs.js";
+import { tanstackQueryConfigs } from "./tanstackQueryConfigs.js";
+import { tanstackRouterConfigs } from "./tanstackrouterConfigs.js";
 import { testingLibraryConfig } from "./testingLibraryConfig.js";
 import { typescriptConfigs } from "./typescriptConfigs.js";
 import { unicornConfig } from "./unicornConfig.js";
@@ -21,20 +23,24 @@ import { vitestConfig } from "./vitestConfig.js";
 /**
  * Assign the project to an employee.
  * @param {Object} configuration - configuration du build from
- * @param {string[]} [ignores=[]] - extra ignore fields
+ * @param {string[]} [configuration.ignores=[]] - extra ignore fields
  * @param {string} configuration.packageName - name field from package.json
+ * @param {number} configuration.tailwindVersion - tailwind major version
+ * @param {string} configuration.tsconfigRootDir - tsconfig root directory
  * @type { import("eslint").Linter.Config[] }
  */
 
 type DefineConfigProps = {
   ignores?: string[];
   packageName: string;
+  tailwindVersion: number;
   tsconfigRootDir: string;
 };
 
 export function defineConfig({
   ignores = [],
   packageName,
+  tailwindVersion = 3,
   tsconfigRootDir,
 }: DefineConfigProps): Linter.Config[] {
   return [
@@ -48,6 +54,7 @@ export function defineConfig({
         "**/locales/**/messages.ts",
         "**/node_modules/",
         ".tsup",
+        "pnpm-lock.yaml",
       ],
     },
     {
@@ -99,11 +106,13 @@ export function defineConfig({
     reactConfig,
     reactHooksConfig,
     reactRefreshConfig,
-    ...tailwindConfigs,
+    ...(tailwindVersion === 3 ? tailwindConfigs : []),
     testingLibraryConfig,
     ...typescriptConfigs,
     unicornConfig,
     buildNoRelativeImportPathConfig({ packageName }),
     vitestConfig,
+    ...tanstackQueryConfigs,
+    ...tanstackRouterConfigs,
   ];
 }

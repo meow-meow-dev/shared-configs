@@ -1,4 +1,5 @@
-import { Linter } from "eslint";
+import type { Linter } from "eslint";
+
 import nodePlugin from "eslint-plugin-n";
 
 export const nodeConfig: Linter.Config = {
