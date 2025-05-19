@@ -12,7 +12,6 @@ import { promiseConfig } from "./promiseConfig.js";
 import { reactConfig } from "./reactConfig.js";
 import { reactHooksConfig } from "./reactHooksConfig.js";
 import { reactRefreshConfig } from "./reactRefreshConfig.js";
-import { tailwindConfigs } from "./tailwindConfigs.js";
 import { tanstackQueryConfigs } from "./tanstackQueryConfigs.js";
 import { tanstackRouterConfigs } from "./tanstackrouterConfigs.js";
 import { testingLibraryConfig } from "./testingLibraryConfig.js";
@@ -25,7 +24,6 @@ import { vitestConfig } from "./vitestConfig.js";
  * @param {Object} configuration - configuration du build from
  * @param {string[]} [configuration.ignores=[]] - extra ignore fields
  * @param {string} configuration.packageName - name field from package.json
- * @param {number} configuration.tailwindVersion - tailwind major version
  * @param {string} configuration.tsconfigRootDir - tsconfig root directory
  * @type { import("eslint").Linter.Config[] }
  */
@@ -33,14 +31,12 @@ import { vitestConfig } from "./vitestConfig.js";
 type DefineConfigProps = {
   ignores?: string[];
   packageName: string;
-  tailwindVersion: number;
   tsconfigRootDir: string;
 };
 
 export function defineConfig({
   ignores = [],
   packageName,
-  tailwindVersion = 3,
   tsconfigRootDir,
 }: DefineConfigProps): Linter.Config[] {
   return [
@@ -106,7 +102,6 @@ export function defineConfig({
     reactConfig,
     reactHooksConfig,
     reactRefreshConfig,
-    ...(tailwindVersion === 3 ? tailwindConfigs : []),
     testingLibraryConfig,
     ...typescriptConfigs,
     unicornConfig,
