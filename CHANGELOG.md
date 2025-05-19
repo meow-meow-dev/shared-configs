@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.6.0...v1.7.0) (2025-05-19)
+
+
+### Features
+
+* bump packages (including tailwind v4) ([#47](https://github.com/meow-meow-dev/shared-configs/issues/47)) ([faacb7c](https://github.com/meow-meow-dev/shared-configs/commit/faacb7cee19f8fea2175911e0d31e4eaa22c7733))
+
 ## [1.6.0](https://github.com/meow-meow-dev/shared-configs/compare/v1.5.0...v1.6.0) (2025-04-14)
 
 
