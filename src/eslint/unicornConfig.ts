@@ -1,7 +1,7 @@
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
 
 export const unicornConfig = {
-  ...eslintPluginUnicorn.configs["flat/recommended"],
+  ...eslintPluginUnicorn.configs.recommended,
   rules: {
     "unicorn/better-regex": "error",
     "unicorn/filename-case": ["off"],
